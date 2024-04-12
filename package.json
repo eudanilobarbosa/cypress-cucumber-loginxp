@@ -1,0 +1,22 @@
+{
+  "name": "cypress-cucumber-template",
+  "version": "1.0.0",
+  "description": "Cypress + Cucumber :/",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec cypress/e2e/features/*"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "qax"
+  ],
+  "author": "Fernando Papito",
+  "license": "MIT",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.17.4",
+    "esbuild": "^0.19.5"
+  }
+}
